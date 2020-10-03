@@ -1,0 +1,70 @@
+.search {
+    display: flex;
+    padding: 20px 20px;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    z-index: 100;
+    top: 0;
+    margin-top: 5px;
+    /* box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.04) !important; */
+    width: 980px;
+    height: 112px !important;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+
+}
+.search__form {
+    display: flex;
+    justify-content: center;
+}
+input {
+    border: solid 1px #d0d0d0 !important;
+    width: 270px;
+    height: 48px !important;
+    border-radius: 4px;
+}
+.search__select {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 10px;
+    width: 270px;
+    height: 48px !important;
+    border: solid 1px #d0d0d0 !important;
+
+
+
+}
+
+.search__select > select {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    width: 270px;
+    height: 45px !important;
+    
+}
+
+
+
+.search__searchbutton {
+    width: 48px;
+    height: 48px;
+    border-radius: 4px !important;
+    background-color: #2E6BFF !important;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    margin-left: 10px;
+    align-items: center;
+
+}
+
+.search__select > mat-icon {
+    margin-left: 10px ;
+}
