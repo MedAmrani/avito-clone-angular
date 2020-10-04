@@ -1,6 +1,6 @@
 # AvitoClone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
+This web application is a clone of Avito.ma website using angular 10, Angular Material and more. 
 
 # Screen Shot 
 ![alt text](https://github.com/medamrani/avito-clone-angular/blob/master/src/assets/screenAvito.PNG?raw=true)
